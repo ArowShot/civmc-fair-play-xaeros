@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "io.github.arowshot.civmcfairplayxaeros.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ModSettingsMixin",
+		"RadarColorHelperMixin",
+		"RadarRendererMixin",
+		"RadarStateUpdaterMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
